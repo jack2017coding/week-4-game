@@ -28,13 +28,13 @@ var updateSum = function (){
 var restart = function(){
 	sum = 0;
     total = Math.floor((Math.random()* 100) + 19);
-	$('.total').empty();
+    $('.total').empty();
 	$('.total').append(total);
 	red = Math.floor((Math.random()* 12) + 1);
-    blue = Math.floor((Math.random()* 12) + 1);
-    yellow = Math.floor((Math.random()* 12) + 1);
-    green = Math.floor((Math.random()* 12) + 1);
-    updateSum();
+	blue = Math.floor((Math.random()* 12) + 1);
+	yellow = Math.floor((Math.random()* 12) + 1);
+	green = Math.floor((Math.random()* 12) + 1);
+	updateSum();
 }
 
 //The algorithm behind the game
