@@ -2,7 +2,7 @@ body {
 	background-image: url("../images/background_image.jpg");
 }
 
-#name{
+#name {
 	background-color: orange;
 	color: white;
 	text-align: center;
@@ -12,25 +12,25 @@ body {
 	clear: both;
 }
 
-.instructions{
+.instructions {
 	width: 350px;
 	height:370px;
 	background-color: #E0FFFF;
 	margin-bottom: 10px;
 }
 
-p{
+p {
 	color: green;
 	padding: 5px;
 }
 
-.start{
+.start {
 	height:120px;
     width:300px;
     display: inline-block;
 }
 
-.total{
+.total {
 	width:150px;
 	height: 100px;
 	background-color: #90EE90;
@@ -40,7 +40,7 @@ p{
 	padding: 10px;
 }
 
-.result{
+.result {
 	width:100px;
 	height: 100px;
 	background-color: #FF00FF;
@@ -48,24 +48,24 @@ p{
 	padding: 10px;
 }
 
-.click{
+.click {
 	width:80px;
 	height:80px;
 }
 
-.score{
+.score {
 	width: 180px;
 	height:40px;
 	background-color: #2E8B57;
 	margin-bottom: 10px;
 }
 
-h4{
+h4 {
 	color: white;
 	padding-top: 10px;
 }
 
-.sum{
+.sum {
 	width:180px;
 	height:120px;
 	background-color: #2E8B57;
