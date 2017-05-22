@@ -24,7 +24,7 @@ var updateSum = function (){
 	$('#losses').append(losses);
 }
 
-//This function restarts the game
+//This function restarts the game and resets the values
 var restart = function(){
 	sum = 0;
     total = Math.floor((Math.random()* 100) + 19);
