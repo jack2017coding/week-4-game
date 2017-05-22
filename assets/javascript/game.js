@@ -41,8 +41,6 @@ var restart = function(){
 var theGame = function (){
 	if (sum == total) {
 		wins = wins + 1;
-		
-		audio.play();
 		restart();
 	}else if(sum > total){
 		losses = losses + 1;
