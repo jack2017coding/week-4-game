@@ -27,8 +27,8 @@ var updateSum = function (){
 //This function restarts the game and resets the values
 var restart = function(){
 	sum = 0;
-    total = Math.floor((Math.random()* 100) + 19);
-    $('.total').empty();
+	total = Math.floor((Math.random()* 100) + 19);
+	$('.total').empty();
 	$('.total').append(total);
 	red = Math.floor((Math.random()* 12) + 1);
 	blue = Math.floor((Math.random()* 12) + 1);
